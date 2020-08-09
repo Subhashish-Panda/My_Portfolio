@@ -1,0 +1,18 @@
+#bck{
+    padding-top:75px;
+    padding-bottom:50px;
+    background: url(/assets/details.jpg) no-repeat center;
+    min-height: 900px;
+    background-size: cover;
+}
+.Cmn{
+    border: 1px solid black;
+}
+.inner{
+    background-color: rgba(255, 255,255, 0.3);
+}
+@media(min-height:1300px){
+    #bck{
+        min-height: 1500px;
+    }
+}

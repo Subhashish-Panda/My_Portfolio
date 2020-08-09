@@ -1,0 +1,21 @@
+#banner_image{
+    padding-top:75px;
+    padding-bottom:50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(/assets/pt_bg3.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 1000px;
+    }
+    #banner_content{
+    position: relative;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    margin-bottom: 12%;
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+@media(min-height:1300px){
+    #banner_image{
+        min-height: 1500px;
+    }
+}

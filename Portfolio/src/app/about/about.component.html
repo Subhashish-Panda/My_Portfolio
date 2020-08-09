@@ -1,0 +1,48 @@
+<div class="container-fluid bck">
+        <div class="row">
+            <div class="col-lg-6 col-12" style="margin-top: 5px;">
+                <img [src]="photo" class="img-fluid">
+            </div>
+            <div class="col-lg-6 col-12" style="margin-top: 5px;">
+                <div class="card" style="background-color: rgba(255, 255,255, 0.6);">
+                    <div class="card-header text-center" style="font-family:Times New Roman, Times, serif;">
+                    <h2>Who Am I?</h2>
+                    </div>
+                    <div class="card-body">
+                    <p style="font-family: 'Courier New', Courier, monospace;font-weight: 1000;">
+                    Hey! My Name is Subhashish Panda.I belong to Bhadrak,Odisha.I am an aspiring web developer with the experience of building 
+                    interactive web applications and small business websites using 
+                    the modern best practices.I am a developer who believes in developing
+                    a safe, stable and robust eco-system for people to interact on the internet
+                    which facilitates scaling up as per user demand. With each line of code,
+                    I strive to add value to the web,and make it a beautiful place for people to interact with.</p>
+                    <div class="card-title">
+                    <button class="btn btn-outline-dark col-5  btn-md" (click)="Show_skills()">My Skills<span class="fas fa-compass fa-pulse" role="status" aria-hidden="true" *ngIf="skills"></span></button>
+                    <button class="btn btn-outline-dark offset-2 col-5  btn-md" (click)="Show_hobbies()">My Hobbies<span class="fas fa-compass fa-pulse" role="status" aria-hidden="true" *ngIf="hobbies"></span></button>
+                    </div>
+                    <div class="card-text" *ngIf="skills">
+                    <h4><span class="badge badge-light"><span class="fab fa-html5"></span>HTML</span></h4><div class="progress form-group"><div class="progress-bar progress-bar-striped progress-bar-animated bg-info" style="width:78%"></div></div>
+                    <h4><span class="badge badge-light"><span class="fab fa-css3-alt"></span>CSS</span></h4><div class="progress form-group"><div class="progress-bar progress-bar-striped progress-bar-animated bg-success" style="width:87%"></div></div>
+                    <h4><span class="badge badge-light"><span class="fab fa-font-awesome"></span>FontAwesome</span></h4><div class="progress form-group"><div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" style="width:95%"></div></div>
+                    <h4><span class="badge badge-light"><span class="fab fa-bootstrap"></span>Bootstrap</span></h4><div class="progress form-group"><div class="progress-bar progress-bar-striped progress-bar-animated bg-dark" style="width:75%"></div></div>
+                    <h4><span class="badge badge-light"><span class="fab fa-php"></span>PHP</span></h4><div class="progress form-group"><div class="progress-bar progress-bar-striped progress-bar-animated bg-pink" style="width:72%"></div></div>
+                    <h4><span class="badge badge-light"><i class="fab fa-js"></i>JavaScript</span></h4><div class="progress form-group"><div class="progress-bar progress-bar-striped progress-bar-animated bg-purple" style="width:60%"></div></div>
+                    <h4><span class="badge badge-light"><i class="fa fa-database"></i>MySQL</span></h4><div class="progress form-group"><div class="progress-bar progress-bar-striped progress-bar-animated bg-mysql" style="width:85%"></div></div>
+                    <h4><span class="badge badge-light" style="padding-left: 0px;"><img src="https://img.icons8.com/color/48/000000/firebase.png" height="24"/>Firebase</span></h4><div class="progress form-group"><div class="progress-bar progress-bar-striped progress-bar-animated bg-firebase" style="width:68%"></div></div>
+                    <h4><span class="badge-light"><i class="fab fa-angular"></i>Angular</span></h4><div class="progress form-group"><div class="progress-bar progress-bar-striped progress-bar-animated bg-angular" style="width:80%"></div></div>
+                    <h4><span class="badge-light"><i class="fab fa-laravel"></i>Laravel</span></h4><div class="progress form-group"><div class="progress-bar progress-bar-striped progress-bar-animated bg-laravel" style="width:63%"></div></div>
+                    </div>
+                    <div class="card-text" *ngIf="hobbies">
+                    <h4><span class="badge badge-light" style="padding-left: 0px;"><img src="https://img.icons8.com/color/48/000000/cricket.png" height="25"/>Cricket</span></h4>
+                    <h4><span class="badge badge-light" style="padding-left: 0px;"><img src="https://img.icons8.com/ios-glyphs/48/000000/badminton-2.png" height="25"/>Badminton</span></h4>
+                    <h4><span class="badge badge-light"><span class="fa fa-globe"></span>Travel</span></h4>
+                    <h4><span class="badge badge-light"><span class="fa fa-music"></span>Music</span></h4>
+                    <h4><span class="badge badge-light"><span class="fa fa-hourglass-half"></span>Theory of Relativity</span></h4>
+                    <h4><span class="badge badge-light" style="padding-left: 0px;"><img src="https://img.icons8.com/color/50/000000/india-national-emblem.png" height="25"/>Reading Indian History</span></h4>
+                    <h4><span class="badge badge-light"><span class="fas fa-robot"></span>Robotics</span></h4>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

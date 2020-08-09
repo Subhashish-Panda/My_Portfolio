@@ -1,0 +1,31 @@
+<div id="bck1" class="col-12">
+    <div class="row">
+        <div class="col-md-6 offset-md-3">
+            <div class="card" style="background-color: rgba(255, 255,255, 0.6);">
+               <div class="card-header">
+               <h2 style="text-align: center;">My works(<i class="fa fa-file-code"></i>)</h2><hr/>
+               <p style="font-family: 'Courier New', Courier, monospace;font-weight: 1000;">
+               Projects are nothing but a reflection of the skills that we have learnt,and applying them practically.This not only promotes experiential learning
+               but also leads to gaining mastery over the theory learnt.By saying so,I would
+               like to present some of my works in the domain of web development.
+               </p>
+               <div class="form-row">
+                <button class="btn btn-outline-primary col-4" (click)="show()">Show</button>
+                <button class="btn btn-outline-dark offset-4 col-4" (click)="hide()">Hide</button>
+               </div>
+               <div id="hr" *ngIf="allowed"></div>
+               <div class="card-text" *ngIf="allowed">
+                 <ul class="list-group">
+                 <li class="list-group-item" *ngFor="let obj of projects" style="background-color: rgba(173,255,47, 0.3);font-weight: 700;">
+                 <p class="text-dark"><span class="fas fa-layer-group"></span>Project name: {{obj.name}}</p>
+                 <p style="color: rgb(30, 20, 37);" *ngIf="obj.git"> <span class="fa fa-code-branch"></span>Github link: <a [href]="obj.git">Click here</a></p>
+                 <p class="text-success"><span class="fa fa-link"></span>Public url: <a [href]="obj.url">Click here</a></p>
+                 </li>
+                 </ul>
+                 <p style="font-weight: 700;"><span class="fa fa-grin-wink"></span>More projects in progress... Stay tuned!<span class="fas fa-compass fa-pulse"></span></p>
+               </div>
+               </div>
+            </div>
+        </div>
+    </div>
+</div>

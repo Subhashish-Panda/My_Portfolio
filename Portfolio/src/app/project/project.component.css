@@ -1,0 +1,17 @@
+#bck1
+{
+    padding-top:75px;
+    padding-bottom:50px;
+    background: url(/assets/projects.jpg) no-repeat center;
+    min-height: 1000px;
+    background-size: cover;
+}
+#hr{
+    margin-top: 5px;;
+    border: 1px solid goldenrod;
+}
+@media(min-height:1300px){
+    #bck1{
+        min-height: 1500px;
+    }
+}

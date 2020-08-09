@@ -1,0 +1,32 @@
+.bck{
+    background: url(/assets/req.jpg) no-repeat center;
+    min-height: 1000px;
+    background-size: cover;
+}
+.bg-purple{
+    background-color: purple;
+}
+.bg-pink{
+    background-color:maroon;
+}
+.bg-mysql{
+    background-color: saddlebrown;
+}
+.bg-firebase{
+    background-color: teal;
+}
+.bg-angular{
+    background-color: black;
+}
+.bg-laravel{
+    background-color: navy;
+}
+.spinner-border-md{
+    height: 1.2rem;
+    width: 1.2rem;;
+}
+@media(min-height:1300px){
+    .bck{
+        min-height: 1500px;
+    }
+}

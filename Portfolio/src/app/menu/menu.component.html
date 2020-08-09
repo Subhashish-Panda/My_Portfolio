@@ -1,0 +1,27 @@
+<div class="navbar navbar-expand-lg navbar-dark" style="background-color: black;">
+   <a class="navbar-brand" href="#">
+    <img src="assets/logo.jpg" height="60" width="100">
+   </a>
+   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+   </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <!--Home link for portfolio website-->
+            <li class="nav-item" routerLinkActive="active" data-toggle="collapse" data-target=".navbar-collapse">
+            <a class="nav-link fa fa-home" routerLink="/home">&nbsp;Home</a>
+            </li>
+        </ul>
+        <ul class="navbar-nav ml-auto">
+            <!--Login button available for logged out users-->
+            <li class="nav-item right" routerLinkActive="active" data-toggle="collapse" data-target=".navbar-collapse">
+            <a class="nav-link 	fa fa-exclamation-circle" routerLink="/about">&nbsp;About</a>
+            </li>  
+            <li class="nav-item right" routerLinkActive="active" data-toggle="collapse" data-target=".navbar-collapse">
+            <a class="nav-link 	fab fa-github" routerLink="/project">&nbsp;Projects</a>
+            </li>
+            <li class="nav-item right" routerLinkActive="active" data-toggle="collapse" data-target=".navbar-collapse">
+            <a class="nav-link fa fa-phone" routerLink="/contact">&nbsp;Contact</a>
+            </li>    
+        </ul>
+    </div>
