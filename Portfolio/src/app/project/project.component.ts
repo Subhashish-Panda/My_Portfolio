@@ -31,6 +31,11 @@ export class ProjectComponent implements OnInit {
   name:"Expense Manager",
   git:"",
   url:"https://soul-stirring-swive.000webhostapp.com/"
+  },
+  {
+  name:"Weather app",
+  git:"https://github.com/Subhashish-Panda/Weather_App.git",
+  url:"https://weather-1ac0a.web.app/"
   }
   ]
   constructor() { }
