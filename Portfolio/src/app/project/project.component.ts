@@ -24,7 +24,7 @@ export class ProjectComponent implements OnInit {
   },
   {
   name:"Calculator",
-  git:"https://github.com/Subhashish-Panda/Fastest_Temp_conversion.git",
+  git:"https://github.com/Subhashish-Panda/Angular_Calculator",
   url:"https://angular-calc-hacker99.stackblitz.io/"
   },
   {
